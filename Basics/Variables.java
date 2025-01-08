@@ -34,7 +34,10 @@ public class Variables {
     //  boolean = 1 bit
     boolean bool = false;
     System.out.println("boolean: " + bool); 
-
+    
+    //  String = depend on assigned strings
+    String name = "Hello World";
+    System.out.println(name);
   }
 
 }
