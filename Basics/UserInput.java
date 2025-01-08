@@ -11,7 +11,7 @@ public class UserInput {
 
     System.out.println("Enter your age: ");
     int age = sc.nextInt();
-    
+
     System.out.println("Enter your phone number: ");
     long mob = sc.nextLong();
 
@@ -21,7 +21,7 @@ public class UserInput {
     System.out.println("Enter your net worth: ");
     double worth = sc.nextDouble();
 
-    System.out.println("\n\nWelcome " + name + ".\n" + "Your age is: " + age + ".\n" + "Mobile No.: " + mob + "\n" + "Your height is " + height + ".\n" + "Your Bank Balance is " + worth + "\n\n" + "Thank You." );
+    System.out.println("\n\nWelcome " + name + ".\n" + "Your age is: " + age + ".\n" + "Mobile No.: " + mob + "\n" + "Your height is " + height + ".\n" + "Your Bank Balance is " + worth + "\n\n" + "Thank You.");
 
     sc.close();
 
