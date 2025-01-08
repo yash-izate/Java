@@ -18,7 +18,8 @@ public class NumberSwap {
     a = b;
     b = temp;
 
-    System.out.println("\na: " + a + "\t" + "b: " + b);
+    System.out.println("\nSwapping Done.");
+    System.out.println("a: " + a + "\t" + "b: " + b);
     sc.close();
 
   }
