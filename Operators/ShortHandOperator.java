@@ -21,7 +21,7 @@ public class ShortHandOperator {
     // x = x / 2;
     x /= 2;
 
-    //  x = x % 13;
+    // x = x % 13;
     x %= 13;
 
     System.out.println(x);
