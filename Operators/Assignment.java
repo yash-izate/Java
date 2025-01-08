@@ -4,7 +4,7 @@ public class Assignment {
   public static void main(String[] args) {
 
     // There should always a variable on left side
-    
+
     String myName = "Yash";
     String yourName = myName;
 
@@ -16,5 +16,5 @@ public class Assignment {
     System.out.println(yourInt);
 
   }
-  
+
 }

@@ -7,7 +7,7 @@ public class UserSum {
     Scanner sc = new Scanner(System.in);
 
     System.out.println("Welcome to Calculator!");
-    
+
     System.out.print("Enter first number: ");
     int firstNum = sc.nextInt();
 
@@ -19,7 +19,6 @@ public class UserSum {
     System.out.println("Your sum is " + sum + "\nThank You");
     sc.close();
 
-    
   }
-  
+
 }
