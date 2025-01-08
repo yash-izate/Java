@@ -19,6 +19,7 @@ public class NumberSwap {
     b = temp;
 
     System.out.println("\na: " + a + "\t" + "b: " + b);
+    sc.close();
 
   }
   
