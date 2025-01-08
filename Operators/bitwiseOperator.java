@@ -2,7 +2,7 @@ package Operators;
 
 import java.util.Scanner;
 
-public class bitwiseOperator {
+public class BitwiseOperator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
