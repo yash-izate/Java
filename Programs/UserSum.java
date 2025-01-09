@@ -1,4 +1,4 @@
-package Operators;
+package Programs;
 
 import java.util.Scanner;
 
