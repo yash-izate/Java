@@ -6,6 +6,8 @@ public class RelationalOperator {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
+    //  ==, !=, <=, >=, <, > 
+
     System.out.println("Welcome to Driving Liscense Center.");
 
     System.out.print("Please enter your age: ");
