@@ -21,5 +21,5 @@ public class IsLeapYear {
 
     sc.close();
   }
-  
+
 }
