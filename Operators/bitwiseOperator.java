@@ -27,10 +27,10 @@ public class BitwiseOperator {
         int not = ~x;
         System.out.println("NOT: " + not);
 
-        int leftShift = x << y;
+        int leftShift = x << 2;
         System.out.println("Left Shift: " + leftShift);
 
-        int rightShift = x >> y;
+        int rightShift = x >> 2;
         System.out.println("Right Shift: " + rightShift);
 
         sc.close();
