@@ -12,7 +12,7 @@ public class BitwiseOperator {
 
         System.out.print("Enter first number: ");
         int x = sc.nextInt();
-        System.out.print("Enter first number: ");
+        System.out.print("Enter second number: ");
         int y = sc.nextInt();
 
         int and = x & y;
