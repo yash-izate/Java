@@ -19,5 +19,6 @@ public class RelationalOperator {
     } else {
       System.out.println("Congratulation, You are eligible for driving liscense.");
     }
+    sc.close();
   }
 }
