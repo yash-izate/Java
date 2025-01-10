@@ -18,6 +18,11 @@ public class Array {
 
     System.out.println(Arrays.toString(myArr));
 
+    int[] newArr = { 2, 4, 56, 7, 8, 45 };
+    for (int i = 0; i < newArr.length; i++) {
+      System.out.println(newArr[i]);
+    }
+
   }
 
 }
