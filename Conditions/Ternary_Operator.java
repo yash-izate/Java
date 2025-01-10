@@ -1,4 +1,4 @@
-package Conditional_Statement;
+package Conditions;
 import java.util.Scanner;
 public class Ternary_Operator {
     public static void main (String[] args) {
