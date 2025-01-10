@@ -18,24 +18,27 @@ public class FibonacciSeries {
 
   public static void printFibonacci(int num) {
     if (num < 0) {
-      System.out.println("Invalid input. Try again!");
+      System.out.println("Invalid input. Please enter a non-negative number.");
       return;
     }
     if (num == 0) {
-      System.out.println("1");
+      System.out.println("0");
       return;
     }
 
     int first = 0, second = 1;
-    while (first + second <= num) {
+    System.out.print(first + " " + second);
+
+    while (true) {
       int third = first + second;
-      System.out.print(" ");
+      if (third > num) {
+        break;
+      }
+      System.out.print(" " + third);
 
       first = second;
       second = third;
-
     }
-
+    System.out.println();
   }
-
 }
