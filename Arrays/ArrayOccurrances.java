@@ -3,7 +3,7 @@ package Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayOccurances {
+public class ArrayOccurrances {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Welcome to Element Occurance Finder in Array!");
