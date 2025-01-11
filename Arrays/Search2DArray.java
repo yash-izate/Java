@@ -27,23 +27,21 @@ public class Search2DArray {
     boolean isPresent = false;
     int i = 0, j = 0;
 
-    for (i = 0; i < rows; i++) {
+    outerLoop: for (i = 0; i < rows; i++) {
       for (j = 0; j < columns; j++) {
         if (numArray[i][j] == n) {
           isPresent = true;
-          break;
+          break outerLoop; // Breaks both loops
         }
       }
     }
 
     if (isPresent) {
-      System.out.printf("Element is present at position (%d,%d) in array. ", i, j);
-
+      System.out.printf("Element is present at position (%d,%d) in array.\n", i + 1, j + 1);
     } else {
       System.out.println("Element not found in array.");
     }
 
     sc.close();
   }
-
 }
