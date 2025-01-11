@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class searching_2D_Array {
+public class Searching2DArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
