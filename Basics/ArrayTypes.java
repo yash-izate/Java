@@ -1,6 +1,6 @@
-package Arrays;
+package Basics;
 
-public class arrays_types {
+public class ArrayTypes {
     public static void main(String[] args) {
 
         // There are 3 main ways to create an array in java.
@@ -55,8 +55,8 @@ public class arrays_types {
 
         System.out.println();
 
-        //  to print arrays using for-each loop
-        
+        // to print arrays using for-each loop
+
         for (float element : student) {
 
             System.out.println("Array by for - each loop : " + element);
