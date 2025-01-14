@@ -10,14 +10,13 @@ public class TernaryOperator {
     System.out.println("Please enter your age: ");
     int age = sc.nextInt();
 
-    boolean isEligible = (age >= 18) ? false : true;
-    System.out.println();
-
-    if (isEligible) {
-      System.out.println("You are not eligible.");
+    if (age >= 18) {
+        System.out.println("Eligible");
     } else {
-      System.out.println("You are eligible.");
+        System.out.println("Not Eligible");
     }
+    String eligibility = (age >= 18) ? "Eligible" : "Not Eligible";
+    System.out.println(eligibility);
 
     sc.close();
 
