@@ -19,7 +19,10 @@ class ToString {
     return "Students Details: {name: " + name + ", age: " + age + ", roll number: " + rollNumber + ", house: " + house
         + "}";
   }
-public static void main(String[] args) {
-  ToString stu = new ToString("Yash", 21, 70, "blue");
-}
+
+  public static void main(String[] args) {
+    ToString stu = new ToString("Yash", 21, "70", "blue");
+
+    System.out.println(stu);
+  }
 }
