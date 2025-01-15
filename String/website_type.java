@@ -9,13 +9,11 @@ public class website_type {
         System.out.println("Enter website url : ");
         String url = sc.nextLine();
 
-        if(url.endsWith(".com")) {
+        if (url.endsWith(".com")) {
             System.out.println("Commersial Website");
-        }
-        else if(url.endsWith(".org")) {
+        } else if (url.endsWith(".org")) {
             System.out.println("Organization Website");
-        }
-        else if (url.endsWith(".in")) {
+        } else if (url.endsWith(".in")) {
             System.out.println("Indian Website");
         }
 
