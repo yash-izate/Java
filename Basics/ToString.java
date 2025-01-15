@@ -16,7 +16,10 @@ class ToString {
 
   @Override
   public String toString() {
-    return "Students Details: {name: " + name + ", age: " + age + ", roll number: " + rollNumber + ", house: " + house
+    return "Students Details: {name: " + name
+        + ", age: " + age
+        + ", roll number: " + rollNumber
+        + ", house: " + house
         + "}";
   }
 
