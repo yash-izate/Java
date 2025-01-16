@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.Class;
 
 // Class For Problem 1
 
