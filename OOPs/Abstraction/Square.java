@@ -1,4 +1,4 @@
-package OOPs.AreaOfShapes;
+package OOPs.Abstraction;
 
 public class Square extends Shape {
 

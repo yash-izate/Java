@@ -1,4 +1,4 @@
-package OOPs.AreaOfShapes;
+package OOPs.Abstraction;
 
 public class TestShapes {
   public static void main(String[] args) {
