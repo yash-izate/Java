@@ -1,0 +1,6 @@
+package OOPs.Polymorphism;
+
+public class Car extends Vehicle {
+
+  
+}
