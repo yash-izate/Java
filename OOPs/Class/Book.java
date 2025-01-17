@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.Class;
 
 class Book {
     static int totalNoOfBooks;

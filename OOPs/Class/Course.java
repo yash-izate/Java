@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.Class;
 
 public class Course {
   static int maxCapacity = 100;
