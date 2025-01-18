@@ -8,7 +8,7 @@ package Pattern;
 
 import java.util.Scanner;
 
-public class floyds_triangle {
+public class Floyds_triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
