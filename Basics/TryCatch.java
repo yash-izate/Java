@@ -11,6 +11,7 @@ public class TryCatch {
     int x = sc.nextInt();
     System.out.print("Enter your Divisor: ");
     int y = sc.nextInt();
+    sc.close();
 
     try {
       int result = x / y;
@@ -19,7 +20,8 @@ public class TryCatch {
       System.out.println("Divide by zero is invalid!!!");
     } catch (Throwable th) {
       System.out.println("General Exception");            // it catches all the exceptions
+    } finally {
+      System.out.println("I am in finally!");             // it runs regardless of try and catch
     }
-    sc.close();
   }
 }
