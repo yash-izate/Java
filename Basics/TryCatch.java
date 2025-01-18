@@ -17,6 +17,8 @@ public class TryCatch {
       System.out.printf("Result is %d", result);
     } catch (ArithmeticException e) {
       System.out.println("Divide by zero is invalid!!!");
+    } catch (Throwable th) {
+      System.out.println("General Exception");            // it catches all the exceptions
     }
     sc.close();
   }
