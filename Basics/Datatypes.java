@@ -1,6 +1,6 @@
 package Basics;
 
-public class Variables {
+public class Datatypes {
   public static void main(String[] args) {
 
     //  1 byte = 8 bits  ,  -128 to 127
