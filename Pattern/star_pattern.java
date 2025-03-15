@@ -13,7 +13,3 @@ public class star_pattern {
       System.out.println();
 
     }
-
-  }
-
-}
