@@ -1,6 +1,6 @@
-package Input_Output;
+package InputOutput;
 
-public class multiply {
+public class Multiply {
     public static void main(String[] args) {
         System.out.println("Multiplication is : ");
 

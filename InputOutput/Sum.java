@@ -1,6 +1,6 @@
-package Input_Output;
+package InputOutput;
 
-public class sum {
+public class Sum {
     public static void main(String[] args) {
         // write your code here
         System.out.print("Sum of three number is : ");

@@ -1,8 +1,8 @@
-package Input_Output;
+package InputOutput;
 
 import java.util.Scanner;
 
-public class addition {
+public class Addition {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

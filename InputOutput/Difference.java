@@ -1,6 +1,6 @@
-package Input_Output;
+package InputOutput;
 
-public class difference {
+public class Difference {
     public static void main(String[] args) {
         System.out.println("Difference is : ");
 
