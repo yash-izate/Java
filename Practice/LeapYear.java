@@ -8,7 +8,7 @@ public class LeapYear {
 
     System.out.print("Input the year: ");
     int year = sc.nextInt();
-    
+
     boolean x = (year % 4) == 0;
     boolean y = (year % 100) != 0;
     boolean z = ((year % 100 == 0) && (year % 400 == 0));
