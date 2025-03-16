@@ -3,48 +3,5 @@
     "java.project.sourcePaths": [
         "."
     ],
-    "java.project.referencedLibraries": [],
-
-    // Set Java Home
-    "java.jdt.ls.java.home": "${env:JAVA_HOME}",
-
-    // Improve Java Language Server Performance
-    "java.import.gradle.arguments": "-Xmx2G",
-    "java.import.maven.arguments": "-Xmx2G",
-    "java.jdt.ls.vmargs": "-Xms256m -Xmx2G",
-
-    // Disable unnecessary background tasks
-    "java.import.gradle.enabled": false,
-    "java.import.maven.enabled": false,
-    "java.indexing.enabled": false,
-    "java.referencesCodeLens.enabled": false,
-    "java.import.generatesMetadataFilesAtProjectRoot": false,
-    "files.exclude": {
-        "**/.project": true,
-        "**/.classpath": true,
-        "**/.settings/": true
-    },
-
-    // Disable auto-build to reduce startup delay
-    "java.autobuild.enabled": false,
-
-    // Reduce Code Analysis Load
-    "java.format.settings.url": "",
-    "java.codeGeneration.hashCodeEquals.useInstanceof": false,
-    "java.codeGeneration.useBlocks": false,
-
-    // Disable auto-completion & linting (if not needed)
-    "editor.quickSuggestions": {
-        "other": false,
-        "comments": false,
-        "strings": false
-    },
-    "java.completion.enabled": false,
-
-    // Enable faster debugging
-    "java.debug.settings.hotCodeReplace": "manual",
-
-    // Disable telemetry for better performance
-    "telemetry.telemetryLevel": "off",
-    "telemetry.enableTelemetry": false
+    "java.project.referencedLibraries": []
 }
