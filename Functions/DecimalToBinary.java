@@ -13,14 +13,12 @@ public class DecimalToBinary {
         StringBuilder binary = new StringBuilder();
 
         while (n > 0) {
-
             binary.append(n % 2);
             n /= 2;
-
         }
 
         System.out.println("Binary Number: " + binary.reverse());
+
         sc.close();
     }
-
 }
