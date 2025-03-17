@@ -1,6 +1,6 @@
 package Pattern;
 
-public class star_pattern {
+public class Star_pattern {
   public static void main(String[] args) {
 
     int n = 5;
