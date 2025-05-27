@@ -22,7 +22,6 @@ public class Array {
     for (int i = 0; i < newArr.length; i++) {
       System.out.println(newArr[i]);
     }
-
   }
 
 }
